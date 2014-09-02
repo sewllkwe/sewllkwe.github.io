@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+
+body {
+    font-family: 'Rokkitt', serif;
+    font-size: 16px;
+    
+    background: url("../images/sewllkwe-bg.jpg") no-repeat center top fixed;
+    background-size: cover;
+
+    margin: 0;
+}
+
+header .logo {
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+}
+
+.splash h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 6em;
+    margin-bottom: 0;
+}
+
+.splash .splash--slogan {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffe619;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.footer--left {
+    float: left;
+    width: 46%;
+    background: url("../images/footer-repeat.png") repeat-x right 18px;
+    height: 60px;
+}
+
+.footer--middle {
+    float: left;
+    width: 8%;
+    background: url("../images/footer-logo.png") no-repeat center top;
+    height: 60px;
+}
+
+.footer--right {
+    float: left;
+    width: 46%;
+    background: url("../images/footer-repeat.png") repeat-x 0 18px;
+    height: 60px;
+}
+
+footer p {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 930px) {
+    .splash h1 {
+        font-size: 4em;
+    }
+
+    .splash .splash--slogan {
+        font-size: 1.25em;
+    }
+
+    .footer--left {
+        width: 44%;
+    }
+
+    .footer--middle {
+        width: 12%;
+    }
+
+    .footer--right {
+        width: 44%;
+    }
+}
+
+@media (max-width: 620px) {
+    .splash h1 {
+        font-size: 2.4em;
+    }
+
+    .splash .splash--slogan {
+        font-size: .8em;
+    }
+
+    .footer--left {
+        width: 40%;
+    }
+
+    .footer--middle {
+        width: 20%;
+    }
+
+    .footer--right {
+        width: 40%;
+    }
+}
+
+@media (max-width: 390px) {
+    header .logo {
+        margin-bottom: 75px;
+    }
+
+    .splash h1 {
+        font-size: 2em;
+    }
+
+    footer {
+        margin-top: 75px;
+    }
+
+    .footer--left {
+        width: 38%;
+    }
+
+    .footer--middle {
+        width: 24%;
+    }
+
+    .footer--right {
+        width: 38%;
+    }
+
+    .mobile--hide {
+        display: none;
+    }
+}
