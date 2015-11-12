@@ -36,6 +36,26 @@ body {
     color: #ffe619;
 }
 
+.feature {
+  padding: 24px;
+  clear: both;
+}
+
+.screen {
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.screen--right {
+  float: right;
+  margin-left: 24px;
+}
+
+.screen--left {
+  float: left;
+  margin-right: 24px;
+}
+
 
 @media (max-width: 930px) {
     .mast__title {
