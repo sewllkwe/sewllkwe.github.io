@@ -56,6 +56,19 @@ body {
   margin-right: 24px;
 }
 
+.additional {
+  background-color: #208690;
+  color: rgba(255, 255, 255, 0.9);
+  clear: both;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.additional__feature {
+  margin: 24px;
+}
+
 
 @media (max-width: 930px) {
     .mast__title {
