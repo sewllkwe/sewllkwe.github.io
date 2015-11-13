@@ -1,15 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
 
-body {
-    font-family: 'Rokkitt', serif;
-    font-size: 16px;
+html {
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 62.5%; /* base font allows px like rem sizing */
 
-    margin: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.8rem; /* = 18px */
+  line-height: 2.7rem;
+  margin: 0;
 }
 
 .mast {
   padding: 60px;
   margin: 0 0 48px 0;
+  font-family: 'Rokkitt', serif;
   background: url("../images/sewllkwe-bg.jpg") no-repeat center top fixed;
   background-size: cover;
 }
@@ -24,13 +31,13 @@ body {
 .mast__title {
     text-align: center;
     color: #fff;
-    font-size: 6em;
+    font-size: 6rem;
     margin-bottom: 0;
 }
 
 .mast__slogan {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     text-transform: uppercase;
     text-align: center;
     color: #ffe619;
@@ -39,6 +46,12 @@ body {
 .feature {
   padding: 24px;
   clear: both;
+}
+
+.feature figcaption {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #999999;
 }
 
 .screen {
@@ -72,22 +85,26 @@ body {
 
 @media (max-width: 930px) {
     .mast__title {
-        font-size: 4em;
+        font-size: 4rem;
     }
 
     .mast__slogan {
-        font-size: 1.25em;
+        font-size: 1.25rem;
     }
 
 }
 
 @media (max-width: 620px) {
     .mast__title {
-        font-size: 2.4em;
+        font-size: 2.4rem;
     }
 
     .mast__slogan {
-        font-size: .8em;
+        font-size: .8rem;
+    }
+
+    .screen img {
+      max-width: 320px; 
     }
 
 }
@@ -95,7 +112,13 @@ body {
 @media (max-width: 390px) {
 
     .mast__title {
-        font-size: 2em;
+        font-size: 2rem;
+    }
+
+    .screen--left, .screen--right {
+      display: block; 
+      margin-left: 0;
+      margin-right: 0;
     }
 
 }
