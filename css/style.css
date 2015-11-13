@@ -43,6 +43,12 @@ body {
     color: #ffe619;
 }
 
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .feature {
   padding: 24px;
   clear: both;
@@ -76,18 +82,39 @@ body {
   margin-right: 24px;
 }
 
-.additional {
+.aside {
   background-color: #208690;
   color: rgba(255, 255, 255, 0.9);
   clear: both;
+}
 
+.additional {
   display: flex;
   justify-content: space-around;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
 }
 
-.additional__feature {
-  margin: 24px;
+.additional div {
+  margin: 36px;
 }
+
+.sub-feature {
+  text-align: center;
+}
+
+.sub-feature__icon {
+  height: 55px;
+}
+
+.sub-feature__title {
+  text-align: center;
+}
+
+.sub-feature__content {
+  text-align: left;
+}
+
 
 
 @media (max-width: 930px) {
