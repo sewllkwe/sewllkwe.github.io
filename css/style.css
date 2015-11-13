@@ -57,6 +57,13 @@ body {
 .screen {
   margin: 0;
   margin-bottom: 24px;
+  width: 628px;
+  max-width: 628px;
+}
+
+.screen img {
+  width: 100%;
+  max-width: 628px;
 }
 
 .screen--right {
