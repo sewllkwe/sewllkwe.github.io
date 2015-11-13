@@ -20,6 +20,7 @@ body {
   font-family: 'Rokkitt', serif;
   background: url("../images/sewllkwe-bg.jpg") no-repeat center top fixed;
   background-size: cover;
+  margin-bottom: 96px;
 }
 
 .mast__logo {
@@ -53,7 +54,7 @@ body {
 .feature {
   padding: 0 24px;
   display: flex;
-  margin-bottom: 48px;
+  margin-bottom: 96px;
 }
 
 .feature__screen figcaption {
@@ -119,6 +120,11 @@ body {
   text-align: center;
 }
 
+.contact { 
+  text-align: center;
+  padding: 24px;
+}
+
 .footer {
   background-color: #FFEECA;
   color: #9B9B9B;
@@ -131,15 +137,20 @@ body {
 
 
 @media (max-width: 930px) {
-    .mast__title {
-        font-size: 4rem;
-    }
+  .mast {
+    margin-bottom: 72px;
+  }
 
-    .mast__slogan {
-        font-size: 1.25rem;
-    }
+  .mast__title {
+    font-size: 4rem;
+  }
+
+  .mast__slogan {
+    font-size: 1.25rem;
+  }
 
   .feature {
+    margin-bottom: 72px;
     font-size: 1.6rem;
   }
 
@@ -154,8 +165,13 @@ body {
 }
 
 @media (max-width: 780px) {
+  .mast {
+    margin-bottom: 36px;
+  }
+
   .feature {
     font-size: 1.5rem; 
+    margin-bottom: 36px;
   }
 
   .feature__screen {
@@ -168,13 +184,17 @@ body {
 }
 
 @media (max-width: 620px) {
-    .mast__title {
-        font-size: 2.4rem;
-    }
+  .mast {
+    margin-bottom: 24px;
+  }
 
-    .mast__slogan {
-        font-size: .8rem;
-    }
+  .mast__title {
+    font-size: 2.4rem;
+  }
+
+  .mast__slogan {
+    font-size: .8rem;
+  }
 
   .feature {
     flex-wrap: wrap; 
