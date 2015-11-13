@@ -112,7 +112,16 @@ body {
 }
 
 .sub-feature__content {
-  text-align: left;
+  text-align: center;
+}
+
+.footer {
+  background-color: #FFEECA;
+  color: #9B9B9B;
+  padding: 24px;
+
+  font-size: 0.5rem;
+  text-align: center;
 }
 
 
