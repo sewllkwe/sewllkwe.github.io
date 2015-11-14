@@ -1,0 +1,20 @@
+{
+  "name": "sewllkwe.github.io",
+  "version": "2.0.0",
+  "description": "Sewllkwe Tracking Solutions LTD. website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sewllkwe/sewllkwe.github.io.git"
+  },
+  "author": "Jonathan Bowers <jonotron@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/sewllkwe/sewllkwe.github.io/issues"
+  },
+  "homepage": "https://github.com/sewllkwe/sewllkwe.github.io#readme"
+}
