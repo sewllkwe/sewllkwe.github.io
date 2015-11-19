@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-size: 1.8rem; /* = 18px */
+  font-size: 1.6em; /* = 16px Note: using em here instead of rem due to bug in Chrome rendering rem in body tag*/
   line-height: 1.5;
   color: #5F5F5F;
   margin: 0;
