@@ -53,6 +53,8 @@ body {
 
 .feature {
   padding: 0 24px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 96px;
 }
@@ -64,19 +66,25 @@ body {
 }
 
 .feature__screen {
-  flex: 0 1 70%;
+  -webkit-flex: 0 1 70%;
+      -ms-flex: 0 1 70%;
+          flex: 0 1 70%;
   margin: 0;
   margin-bottom: 24px;
 }
 
 .feature__screen--right {
   padding-left: 24px;
-  order: 2;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
 }
 
 .feature__screen--left {
   padding-right: 24px;
-  order: -1;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
 }
 
 .feature__screen img {
@@ -84,7 +92,9 @@ body {
 }
 
 .feature__content {
-  flex: 1 1 30%;
+  -webkit-flex: 1 1 30%;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
 }
 
 .aside {
@@ -93,8 +103,12 @@ body {
 }
 
 .additional {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
   font-size: 1.4rem;
   line-height: 2.1rem;
   padding-top: 36px;
@@ -155,11 +169,15 @@ body {
   }
 
   .feature__screen {
-    flex: 0 1 60% 
+    -webkit-flex: 0 1 60%;
+        -ms-flex: 0 1 60%;
+            flex: 0 1 60% 
   }
 
   .feature__content {
-    flex: 1 1 40%; 
+    -webkit-flex: 1 1 40%;
+        -ms-flex: 1 1 40%;
+            flex: 1 1 40%; 
   }
 
 }
@@ -175,11 +193,15 @@ body {
   }
 
   .feature__screen {
-    flex: 0 1 50%;
+    -webkit-flex: 0 1 50%;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
   }
 
   .feature__content {
-    flex: 1 1 50%; 
+    -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%; 
   }
 }
 
@@ -197,21 +219,29 @@ body {
   }
 
   .feature {
-    flex-wrap: wrap; 
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; 
     margin-bottom: 24px;
   }
 
   .feature__screen, .feature__content {
-    flex: 1 1 100%; 
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%; 
   }
 
   .feature__screen {
     padding: 0; 
-    order: 2;
+    -webkit-order: 2; 
+        -ms-flex-order: 2; 
+            order: 2;
   }
 
   .additional {
-    flex-wrap: wrap;  
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;  
   }
 
   .additional > div {

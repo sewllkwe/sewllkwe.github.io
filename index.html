@@ -4,27 +4,149 @@
   <meta charset="UTF-8">
   <title>Sewllkwe Water Tracking Solutions</title>
 
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="build/style.css" />
 
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
   <meta name="viewport" content="width=device-width, user-scalable=no">
 </head>
 <body>
+  <header class="mast">
+    <object type="image/svg+xml" data="images/sewllkwe_logo.svg" align="middle" 
+       class="mast__logo" /></object>
+    <h1 class="mast__title">Water Without Borders</h1>
+    <h2 class="mast__slogan">Created by First Nations for all Nations.</h2>
+  </header>
+
   <div class="container">
-    <header>
-      <img src="images/sewllkwe-logo.png" class="logo" />
-    </header>
-    <section class="splash">
-      <h1>Water Without Borders</h1>
-      <p class="splash--slogan">Created by First Nations for all Nations.</p>
+
+    <section id="sec-sample" class="feature">
+      <figure class="feature__screen feature__screen--right">
+        <img 
+          src="images/screen_water_sample.png" 
+          srcset="images/screen_water_sample.png 2x">
+        <figcaption>
+          Screen shot - water sample data showing free chlorine, total coliform 
+          and E.Coli. counts
+        </figcaption>
+      </figure>
+
+      <div class="feature__content">
+        <h3>See your water sample data</h3>
+        <p>
+          Collect water samples and track your Colilert results for total coliform 
+          and E.Coli.
+        </p>
+
+        <p>
+          Receive alerts when samples test positive and quickly know which 
+          location and water system produced a positive test.
+        </p>
+      </div>
+
     </section>
-    <footer>
-      <p>Full site coming soon <span class="mobile--hide">|</span> <a href="mailto:info@sewllkwe.com">info@sewllkwe.com</a></p>
-      <div class="footer--left"></div>
-      <div class="footer--middle"></div>
-      <div class="footer--right"></div>
-    </footer>
+
+    <section id="sec-reports" class="feature">
+      <figure class="feature__screen feature__screen--left">
+        <img
+          src="images/screen_chlorine_report.png"
+          srcset="images/screen_chlorine_report.png 2x">
+        <figcaption>
+          Screen shot - chlorine residual report showing graph of multiple
+          locations over time as well as a histogram.
+        </figcaption>
+      </figure>
+
+      <div class="feature__content">
+        <h3>Visualize your water system</h3>
+
+        <p>
+          Sewllkwe Water Tracking can graph your water system in ways that make
+          sense for your unique configuration.
+        </p>
+
+        <p>
+          Visualize your data and spot trends in water usage and system 
+          performance.
+        </p>
+      </div>
+    </section>
+
+    <section id="sec-maintenance" class="feature">
+      <figure class="feature__screen feature__screen--right">
+        <img 
+          src="images/screen_maintenance_plan.png" 
+          srcset="images/screen_maintenance_plan.png 2x">
+        <figcaption>
+          Screen shot - simple maintenance planning with tasks on assets due at
+          specified dates.
+        </figcaption>
+      </figure>
+
+      <div class="feature__content">
+        <h3>Plan your maintenance tasks</h3>
+
+        <p>
+          Scheduling your maintenance plan with is simple with Sewllkwe Tracking. 
+          Everything from hydrant flushes to inspections can be scheduled so you 
+          never miss an important task.
+        </p>
+      </div>
+    </section>
   </div>
+
+  <div class="contact">
+    <div class="container">
+      <p>Contact us for more info: 
+        <a href="mailto:into@sewllkwe.com">info@sewllkwe.com</a>
+      </p>
+    </div>
+  </div>
+
+  <aside id="aside-additionals" class="aside">
+    <div class="container additional">
+      <div class="sub-feature">
+        <object type="image/svg+xml" data="images/maple_leaf.svg" align="middle"
+          class="sub-feature__icon"></object>
+        <h4 class="sub-feature__title">Canadian data</h4>
+
+        <p class="sub-feature__content">
+          Your data is securely held in Canada with Canadian owned providers.
+        </p>
+      </div>
+
+      <div class="sub-feature">
+        <object type="image/svg+xml" data="images/share.svg" align="middle" 
+          class="sub-feature__icon"></object>
+        <h4 class="sub-feature__title">Share results</h4>
+
+        <p class="sub-feature__content">
+          Easily share data and results with necessary agencies and 
+          stakeholders.
+        </p>
+      </div>
+
+      <div class="sub-feature">
+        <object type="image/svg+xml" data="images/gear.svg" align="middle" 
+          class="sub-feature__icon"></object>
+        <h4 class="sub-feature__title">Match your setup</h4>
+
+        <p class="sub-feature__content">
+          Sewllkwe Water Tracking can be easily adapted to your unique water 
+          system configuration.
+        </p>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="footer">
+    <div class="container">
+      <p>
+        &copy; Copyright 2015, Sewllkwe Tracking Solutions Ltd. 
+        Share by Nathan Thomson. Gear by Icomatic.
+      </p>
+    </div>
+  </footer>
+
 </body>
 </html>
