@@ -1,0 +1,270 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);
+
+html {
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 62.5%; /* base font allows px like rem sizing */
+
+  margin: 0;
+}
+
+body {
+  font-size: 1.6em; /* = 16px Note: using em here instead of rem due to bug in Chrome rendering rem in body tag*/
+  line-height: 1.5;
+  color: #5F5F5F;
+  margin: 0;
+}
+
+.mast {
+  padding: 60px;
+  margin: 0 0 48px 0;
+  font-family: 'Rokkitt', serif;
+  background: url("../images/sewllkwe-bg.jpg") no-repeat center top fixed;
+  background-size: cover;
+  margin-bottom: 96px;
+}
+
+.mast__logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 130px;
+}
+
+.mast__title {
+    text-align: center;
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom: 0;
+}
+
+.mast__slogan {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffe619;
+}
+
+.container {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature {
+  padding: 0 24px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 96px;
+}
+
+.feature__screen figcaption {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: #999999;
+}
+
+.feature__screen {
+  -webkit-flex: 0 1 70%;
+      -ms-flex: 0 1 70%;
+          flex: 0 1 70%;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.feature__screen--right {
+  padding-left: 24px;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.feature__screen--left {
+  padding-right: 24px;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+
+.feature__screen img {
+  width: 100%;
+}
+
+.feature__content {
+  -webkit-flex: 1 1 30%;
+      -ms-flex: 1 1 30%;
+          flex: 1 1 30%;
+}
+
+.aside {
+  background-color: #208690;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.additional {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  padding-top: 36px;
+}
+
+.additional > div {
+  margin: 0 36px 36px;
+}
+
+.sub-feature {
+  text-align: center;
+}
+
+.sub-feature__icon {
+  height: 55px;
+}
+
+.sub-feature__title {
+  text-align: center;
+}
+
+.sub-feature__content {
+  text-align: center;
+}
+
+.contact { 
+  text-align: center;
+  padding: 24px;
+}
+
+.footer {
+  background-color: #FFEECA;
+  color: #9B9B9B;
+  padding: 24px;
+
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+
+
+@media (max-width: 930px) {
+  .mast {
+    margin-bottom: 72px;
+  }
+
+  .mast__title {
+    font-size: 4rem;
+  }
+
+  .mast__slogan {
+    font-size: 1.25rem;
+  }
+
+  .feature {
+    margin-bottom: 72px;
+    font-size: 1.6rem;
+  }
+
+  .feature__screen {
+    -webkit-flex: 0 1 60%;
+        -ms-flex: 0 1 60%;
+            flex: 0 1 60% 
+  }
+
+  .feature__content {
+    -webkit-flex: 1 1 40%;
+        -ms-flex: 1 1 40%;
+            flex: 1 1 40%; 
+  }
+
+}
+
+@media (max-width: 780px) {
+  .mast {
+    margin-bottom: 36px;
+  }
+
+  .feature {
+    font-size: 1.5rem; 
+    margin-bottom: 36px;
+  }
+
+  .feature__screen {
+    -webkit-flex: 0 1 50%;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+  }
+
+  .feature__content {
+    -webkit-flex: 1 1 50%;
+        -ms-flex: 1 1 50%;
+            flex: 1 1 50%; 
+  }
+}
+
+@media (max-width: 620px) {
+  .mast {
+    margin-bottom: 24px;
+  }
+
+  .mast__title {
+    font-size: 2.4rem;
+  }
+
+  .mast__slogan {
+    font-size: .8rem;
+  }
+
+  .feature {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; 
+    margin-bottom: 24px;
+  }
+
+  .feature__screen, .feature__content {
+    -webkit-flex: 1 1 100%;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%; 
+  }
+
+  .feature__screen {
+    padding: 0; 
+    -webkit-order: 2; 
+        -ms-flex-order: 2; 
+            order: 2;
+  }
+
+  .additional {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;  
+  }
+
+  .additional > div {
+    margin: 0 24px 24px;
+  }
+
+  .sub-feature__icon {
+    display: none; 
+  }
+
+
+}
+
+@media (max-width: 390px) {
+
+    .mast__title {
+        font-size: 2rem;
+    }
+
+    .screen--left, .screen--right {
+      display: block; 
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+}
